@@ -1,3 +1,26 @@
-footer{
-    bottom: 0%;
+#section1 {
+    height: 520px;
 }
+
+/* gestion transition */
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajout de styles pour rendre le carrousel responsive */
